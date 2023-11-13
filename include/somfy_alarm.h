@@ -8,6 +8,8 @@
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 #include <ESP32Time.h>
+#include <ArduinoJson.h>
+
 
 #define EMITTER_GPIO 2
 #define EEPROM_ADDRESS 0
