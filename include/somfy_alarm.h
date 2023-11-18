@@ -9,14 +9,12 @@
 #include <ESPAsyncWebServer.h>
 #include <ESP32Time.h>
 #include <ArduinoJson.h>
+#include "credentials.h"
 
 
 #define EMITTER_GPIO 2
 #define EEPROM_ADDRESS 0
 #define REMOTE 0x5184c8
 #define CC1101_FREQUENCY 433.42
-
-#define WIFI_SSID ""
-#define WIFI_PW ""
 
 // https://github.com/Legion2/Somfy_Remote_Lib
