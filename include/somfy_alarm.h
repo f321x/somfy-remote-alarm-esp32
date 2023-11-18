@@ -1,5 +1,5 @@
 #include <Arduino.h>
-
+#include "website.h"
 #include <EEPROM.h>
 #include <EEPROMRollingCodeStorage.h>
 #include <SomfyRemote.h>
@@ -16,7 +16,7 @@
 #define REMOTE 0x5184c8
 #define CC1101_FREQUENCY 433.42
 
-#define WIFI_SSID "Steuern sind Raub"
-#define WIFI_PW "npsr2azPmddm"
+#define WIFI_SSID ""
+#define WIFI_PW ""
 
 // https://github.com/Legion2/Somfy_Remote_Lib
